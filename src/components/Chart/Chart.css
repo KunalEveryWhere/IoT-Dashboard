@@ -1,0 +1,18 @@
+.container-chart {
+  display: flex;
+  justify-content: center;
+  background-color: #fdfdfd;
+  margin-left: 250px;
+  margin-right: 250px;
+  box-shadow: 2px 2px 8px #ccc !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.container-chart:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 10px #ccc !important;
+}
+@media (max-width: 770px) {
+  .countainer {
+    width: 100%;
+  }
+}

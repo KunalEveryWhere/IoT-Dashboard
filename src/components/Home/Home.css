@@ -1,0 +1,30 @@
+body {
+  background-color: #f4f4f4;
+}
+.title {
+  margin-left: 5%;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+.sub {
+  margin-left: 5%;
+  margin-top: 10px;
+  font-size: 1.3vw;
+}
+.logout-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.logout-btn button {
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(73, 111, 214);
+  transition: 0.2s ease-in-out;
+}
+.logout-btn button:hover {
+  transform: scale(1.05);
+  background-color: rgb(40, 76, 175);
+}

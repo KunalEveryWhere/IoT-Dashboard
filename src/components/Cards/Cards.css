@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap");
+
+.container {
+  margin: 50px;
+}
+.Card_mod {
+  padding: 2px 2px 2px 0px !important;
+  background-color: #fdfdfd !important;
+  box-shadow: 2px 2px 8px #ccc !important;
+  transition: all 0.3s ease-in-out !important;
+  margin-left: 20px !important;
+}
+.Card_mod:hover {
+  transform: scale(1.08);
+  box-shadow: 2px 2px 10px #ccc !important;
+}
+.sup-text {
+  font-weight: 300;
+  font-size: 0.8vw;
+  margin-bottom: 5px;
+}
+.value {
+  font-weight: 500;
+  font-size: 5.5vw;
+  margin-bottom: 5px;
+}
+.progressbar {
+  position: relative;
+  width: 45%;
+  left: 25%;
+}
+.sub-text {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+
+@media (max-width: 770px) {
+  .Card_mod {
+    margin: 2% 0 !important;
+  }
+  .sup-text {
+    font-weight: 300;
+    font-size: 2vw;
+    margin-bottom: 5px;
+  }
+  .value {
+    font-weight: 500;
+    font-size: 7vw;
+    margin-bottom: 5px;
+  }
+  .sub-text {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 2.5vw;
+  }
+}
